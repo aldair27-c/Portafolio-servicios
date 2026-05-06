@@ -98,4 +98,50 @@ nav ul li {
     transition: 0.3s ease;
 
 }
+
+/* SKILLS */
+
+#skills{
+    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    padding: 60px 80px;
+    height: 730px;
+    text-align: center;
+}
     
+#skills h2{
+    font-size: 35px;
+    color: #191970;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+#blandas,#tecnica{
+    background-color: white;
+    border: 2px solid #191970;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 3px 3px 10px rgb(0, 0,0,0.2);
+}
+
+#blandas h3,
+#tecnica h3{
+    color: #191970;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#blandas ul,
+#tecnica ol{
+    padding-left: 20px;
+    list-style: none;
+}
+#blandas li,
+#tecnica li{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
