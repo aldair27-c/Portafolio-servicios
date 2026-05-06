@@ -69,7 +69,7 @@
             <h2>Proyectos</h2>
             <article>
 
-                <img class="img-proyecto" src="./img/proyec.png" alt="App Restaurante">
+                <img class="img-proyecto" src="./img/proyec-1.png" alt="App Restaurante">
                 <h3>App Restaurante</h3>
                 <p>
                     Sistema de gestión de restaurante desarrollado en
@@ -82,7 +82,7 @@
             </article>
 
             <article>
-                <img class="img-proyecto" src="./img/proyec-2.png" alt="AromaCampus">
+                <img class="img-proyecto" src="./img/proyect-2.png" alt="AromaCampus">
                 <h3>AromaCampus</h3>
                 <p>
                     Sistema para gestionar los tipos de café desarrollado en
@@ -95,7 +95,7 @@
             </article>
 
             <article>
-                <img class="img-proyecto" src="./img/proyec-3.png" alt="Portafolio Web">
+                <img class="img-proyecto" src="./img/proyec-3.jpg" alt="Portafolio Web">
                 <h3>Portafolio Web</h3>
                 <p>
                     Portafolio personal construido con <span class="destacado">HTML & CSS</span>
@@ -108,7 +108,7 @@
             </article>
 
             <article>
-                <img class="img-proyecto" src="./img/proyec-4.png" alt="Proyecto en proceso">
+                <img class="img-proyecto" src="./img/proyect-4.png" alt="Proyecto en proceso">
                 <h3>Próximamente</h3>
                 <p>
                     Nuevo proyecto en desarrollo. Mantente atento a las
@@ -118,8 +118,74 @@
             </article>
 
         </section>
+         <!-- SECCIÓN: CONTACTO -->
+        <section id="contactos">
+            <h2>Contacto</h2>
+            <form action="" method="">
+
+                <label for="txt-nombre">Ingrese su nombre:</label>
+                <input id="txt-nombre" type="text" placeholder="Ej: Juan Pérez">
+                <br>
+
+                <label for="txt-email">Ingrese su correo:</label>
+                <input id="txt-email" type="email" placeholder="Ej: correo@mail.com">
+                <br>
+
+                <label for="txt-mensaje">Mensaje:</label>
+                <br>
+                <textarea id="txt-mensaje" name="txt-mensaje" rows="4" cols="40"
+                    placeholder="Escribe tu mensaje aquí..."></textarea>
+                <br>
+
+                <h3>¿Cómo me encontraste?</h3>
+                <label for="radio-github">
+                    <input type="radio" id="radio-github" name="opciones-origen" value="github"> GitHub
+                </label>
+                <label for="radio-redes">
+                    <input type="radio" id="radio-redes" name="opciones-origen" value="redes"> Redes sociales
+                </label>
+                <label for="radio-otro">
+                    <input type="radio" id="radio-otro" name="opciones-origen" value="otro"> Otro
+                </label>
+                <br>
+
+                <h3>Temas de interés</h3>
+                <label for="check-python">
+                    <input type="checkbox" id="check-python"> Python
+                </label>
+                <label for="check-web">
+                    <input type="checkbox" id="check-web"> Desarrollo Web
+                </label>
+                <label for="check-linux">
+                    <input type="checkbox" id="check-linux"> Linux
+                </label>
+                <label for="check-scrum">
+                    <input type="checkbox" id="check-scrum"> Scrum
+                </label>
+                <br>
+
+                <label for="fecha-contacto">Fecha preferida de contacto:</label>
+                <input type="date" id="fecha-contacto" name="fecha-contacto">
+                <br>
+
+                <label for="color-favorito">Color favorito:</label>
+                <input type="color" id="color-favorito" name="color-favorito">
+                <br>
+
+                <label for="archivo-cv">Adjuntar archivo:</label>
+                <input type="file" id="archivo-cv" name="archivo-cv">
+                <br><br>
+
+                <input type="submit" value="Enviar mensaje">
+
+            </form>
+        </section>
+
 
     </main>
+    <footer>
+        <p>&copy; 2026 Aldair Correa Acosta &mdash; Desarrollador Junior en proceso</p>
+    </footer>
     
 </body>
 </html>
