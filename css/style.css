@@ -1,0 +1,101 @@
+/*RESET*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BODY*/
+
+body {
+    font-family: sans-serif;
+    background-color: #ECEFF1;
+    color: #333;
+}
+
+/*HEADER / NAV*/
+
+header {
+    background-color: #191970;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.a-encabezado {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.a-encabezado:hover {
+    color: #191970;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+#sobre-mi {
+    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    padding: 60px 80px;
+    min-height: 500px;
+    height: 666px;
+}
+
+#sobre-mi-texto {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+
+#sobre-mi-img{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#img-personal{
+    width: 400px;
+    height: 400px;
+    border-radius: 80%;
+    object-fit: cover;
+}
+
+#sobre-mi h1{
+    font-size: 60px;
+    color: #191970;
+}
+
+#sobre-mi p{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+#sobre-mi button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #191970;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sobre-mi button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+
+}
+    
