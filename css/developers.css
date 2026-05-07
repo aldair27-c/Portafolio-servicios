@@ -1,0 +1,84 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+    font-family: sans-serif;
+    background-color: #ECEFF1;
+    color: #333;
+}
+
+/*  HEADER / NAV*/
+
+header {
+    background-color: #191970;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.a-encabezado {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.a-encabezado:hover {
+    color: #191970;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+/* COLLAGE TEAM */
+
+#contenedor-team {
+    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    padding: 60px 80px;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+}
+
+.card-team {
+    background-color: white;
+    border: 2px solid #191970;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #191970;
+    margin-bottom: 15px;
+}
+
+.card-team h3 {
+    color: #191970;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.card-team p {
+    color: #333;
+    font-size: 15px;
+}

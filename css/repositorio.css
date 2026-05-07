@@ -1,0 +1,102 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  BODY */
+
+body {
+    font-family: sans-serif;
+    background-color: #ECEFF1;
+    color: #333;
+}
+
+/* HEADER / NAV */
+
+header {
+    background-color: #191970;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.a-encabezado {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.a-encabezado:hover {
+    color: #191970;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+/* REPOSITORIOS*/
+
+#repositorios {
+    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    padding: 60px 80px;
+    min-height: 680px;
+    text-align: center;
+}
+
+#repositorios h2 {
+    font-size: 35px;
+    color: #191970;
+    margin-bottom: 15px;
+}
+
+#repositorios p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#repositorios table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#repositorios th {
+    background-color: #191970;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#repositorios td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+#repositorios tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#repositorios a {
+    color: #191970;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#repositorios a:hover {
+    text-decoration: underline;
+}

@@ -206,3 +206,69 @@ nav ul li {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
+
+/* Contacto*/
+
+#contactos {
+    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    padding: 60px 80px;
+    text-align: center;
+}
+
+#contactos h2 {
+    font-size: 35px;
+    color: #191970;
+    margin-bottom: 30px;
+}
+
+#contactos form {
+    width: 60%;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid #191970;
+    border-radius: 10px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contactos label {
+    font-weight: bold;
+    color: #191970;
+}
+
+#contactos h3 {
+    color: #191970;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#contactos input[type='text'],
+#contactos input[type='email'],
+#contactos input[type='date'],
+#contactos textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #191970;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#contactos input[type='submit'] {
+    width: 100%;
+    padding: 12px;
+    background-color: #191970;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#contactos input[type='submit']:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
