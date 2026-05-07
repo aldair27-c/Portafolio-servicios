@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
 /*RESET*/
 
 * {
@@ -10,7 +12,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #ECEFF1;
+    background-color:  #0f172a;
     color: #333;
 }
 
@@ -47,7 +49,7 @@ nav ul li {
 /* Sobre mi*/
 
 #sobre-mi {
-    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    background: linear-gradient(to bottom, #191970 0%,  #0f172a 20%,  #0f172a 80%, #191970 100%);
     padding: 60px 80px;
     min-height: 500px;
     height: 666px;
@@ -57,6 +59,7 @@ nav ul li {
     display: inline-block;
     width: 45%;
     vertical-align: middle;
+    
 }
 
 #sobre-mi-img{
@@ -76,12 +79,19 @@ nav ul li {
 #sobre-mi h1{
     font-size: 60px;
     color: #191970;
+    font-family: 'DM Sans',sans-serif ;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #191970;
+    animation: typing 3s steps(20) forwards, cursor 0.6s 3s forwards;
+    color: #ECEFF1;
 }
 
 #sobre-mi p{
     font-size: 18px;
     margin-top: 10px;
     color: #333;
+    color: #ECEFF1;
 }
 
 #sobre-mi button{
@@ -100,6 +110,13 @@ nav ul li {
     transition: 0.3s ease;
 
 }
+#sobre-mi em{
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    animation: parpadeo 2s infinite;
+}
 
 /*video*/
 
@@ -107,7 +124,7 @@ nav ul li {
 /* SKILLS */
 
 #skills{
-    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    background: linear-gradient(to bottom, #191970 0%,  #0f172a 20%,  #0f172a 80%, #191970 100%);
     padding: 60px 80px;
     height: 730px;
     text-align: center;
@@ -115,7 +132,7 @@ nav ul li {
     
 #skills h2{
     font-size: 35px;
-    color: #191970;
+    color: #ECEFF1;
     margin-bottom: 30px;
     padding: 50px;
 }
@@ -129,7 +146,7 @@ nav ul li {
     width: 35%;
     display: inline-block;
     vertical-align: top;
-    box-shadow: 3px 3px 10px rgb(0, 0,0,0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 #blandas h3,
@@ -153,14 +170,14 @@ nav ul li {
 
 /* Proyectos */
 #proyectos{
-    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    background: linear-gradient(to bottom, #191970 0%,  #0f172a 20%,  #0f172a 80%, #191970 100%);
     padding: 60px 80px;
     height: 740px;
 } 
 
 #proyectos h2{
     font-size: 35px;
-    color: #191970;
+    color: #ECEFF1;
     margin-bottom: 30px;
 }
 
@@ -215,14 +232,14 @@ nav ul li {
 /* Contacto*/
 
 #contactos {
-    background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
+    background: linear-gradient(to bottom, #191970 0%,  #0f172a 20%,  #0f172a 80%, #191970 100%);
     padding: 60px 80px;
     text-align: center;
 }
 
 #contactos h2 {
     font-size: 35px;
-    color: #191970;
+    color: #ECEFF1;
     margin-bottom: 30px;
 }
 
@@ -276,4 +293,23 @@ nav ul li {
 #contactos input[type='submit']:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
+}
+
+/*Keyframes*/
+
+@keyframes parpadeo {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes cursor {
+    0% { border-color: #191970; }
+    50% { border-color: transparent; }
+    100% { border-color: transparent; }
 }
