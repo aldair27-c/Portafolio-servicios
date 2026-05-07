@@ -19,7 +19,7 @@ body {
 header {
     background-color: #191970;
     padding: 20px;
-    text-align: center;
+    text-align: center;  
 }
 
 nav ul {
@@ -43,6 +43,8 @@ nav ul li {
     padding: 5px 8px;
     border-radius: 4px;
 }
+
+/* Sobre mi*/
 
 #sobre-mi {
     background: linear-gradient(to bottom, #191970 0%, #ECEFF1 20%, #ECEFF1 80%, #191970 100%);
@@ -98,6 +100,9 @@ nav ul li {
     transition: 0.3s ease;
 
 }
+
+/*video*/
+
 
 /* SKILLS */
 
